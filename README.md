@@ -1,4 +1,4 @@
-# Svelte-Tailwind-Boilerplate
+# Svelte-Tailwind-Boilerplate ( JUN 2022 )
 Svelte | Tailwind | Rollup | PostCSS | PostCSS-CLI | Autoprefixer | Concurrently | Prettier | Prettier-TailwindCSS
 
 Make a folder, open cmd in that folder and run the following commands.
