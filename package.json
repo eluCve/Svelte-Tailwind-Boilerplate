@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "sirv public",
-    "watch:tailwind": "postcss src/app.css -o public/index.css -w",
-    "build:tailwind": "postcss src/app.css -o public/index.css",
+    "watch:tailwind": "postcss src/app.css -o public/build/bundle.css -w",
+    "build:tailwind": "postcss src/app.css -o public/build/bundle.css",
     "build": "npm run build:tailwind && rollup -c",
     "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\""
   },
