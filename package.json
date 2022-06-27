@@ -1,11 +1,11 @@
 {
-  "name": "svelte-app",
+  "name": "svelte-web-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "sirv public",
     "watch:tailwind": "postcss src/app.css -o public/build/bundle.css -w",
     "build:tailwind": "postcss src/app.css -o public/build/bundle.css",
+    "start": "sirv public",
     "build": "npm run build:tailwind && rollup -c",
     "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\""
   },
