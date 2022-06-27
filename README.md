@@ -3,7 +3,7 @@ Svelte | Tailwind | Rollup | PostCSS | PostCSS-CLI | Autoprefixer | Concurrently
 
 Make a folder, open cmd in that folder and run the following commands.
 
-``` git clone https://github.com/eluCve/Svelte-Tailwind-Boilerplate.git ```
+``` git clone https://github.com/eluCve/Svelte-Tailwind-Boilerplate.git . ```
 
 ``` npm install ```
 
